@@ -1,0 +1,11 @@
+const ordername ="Vinay Verma";
+const occupation = "Software Engineer";
+const company = "Turing Inc.";
+const userlocation = "India";
+console.log(`Hello, my name is name. I am a ${occupation} at ${company} based in ${userlocation}.`);
+const message = `Hello, my name is ${ordername}. I am a ${occupation} at ${company} based in ${userlocation}.`;
+//console.log(console);
+let obj=console;
+console.log(obj);
+console.log(console.memmory);
+document.getElementById("data-container").textContent = message;
